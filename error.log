@@ -1,0 +1,14 @@
+[15-May-2025 04:47:11 Europe/Berlin] PHP Warning:  require_once(csrf.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\save1\admin.php on line 10
+[15-May-2025 04:47:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'csrf.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\save1\admin.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\save1\admin.php on line 10
+[15-May-2025 07:02:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rice_husk.product_reviews' doesn't exist in C:\xampp\htdocs\save1\admin.php:939
+Stack trace:
+#0 C:\xampp\htdocs\save1\admin.php(939): PDO->query('\r\n             ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\save1\admin.php on line 939
+[15-May-2025 07:03:28 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\save1\admin.php on line 300
+[15-May-2025 07:03:35 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\save1\admin.php on line 300
+[15-May-2025 07:03:36 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\save1\admin.php on line 300
+[15-May-2025 07:09:49 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\save1\admin.php on line 300
